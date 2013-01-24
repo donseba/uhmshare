@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Uhm? Share! by donseba</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Uhm? Share!</h1>
+        <p class="header">jQuery social sharing plugin</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/donseba/uhmshare/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/donseba/uhmshare/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/donseba/uhmshare">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/donseba">donseba</a></p>
+
+
+      </header>
+      <section>
+        <h1>uhmshare (Uhm? share!)</h1>
+
+<p>jQuery social sharing Plugin.</p>
+
+<p>uhmshare (Uhm? share!) is a small plugin for sharing a page or specific content of the page with socialmedia. </p>
+
+<h2>Usage</h2>
+
+<p>Include both the css and js file in your page. preferable in the header. but do as you please.</p>
+
+<blockquote>
+<pre><code>&lt;script src="uhmshare.min.js"&gt;&lt;/script&gt;
+&lt;link href="uhmshare.css" rel="stylesheet" /&gt;
+</code></pre>
+</blockquote>
+
+<p>Create some elements where you want the share buttons to be shown.</p>
+
+<blockquote>
+<pre><code>&lt;div class="uhmshare"&gt;&lt;/div&gt;
+</code></pre>
+</blockquote>
+
+<p>If You really want you can specify the Url and Title, otherwise the page Url and Title will be used.</p>
+
+<blockquote>
+<pre><code>&lt;div class="uhmshare" data-url="http://sebastiano.me" data-title="Creator uf Uhm? share!"&gt;&lt;/div&gt;
+</code></pre>
+</blockquote>
+
+<p>Above code will come in handy if you have muptiple acrticles on one page, wich also have their own url.</p>
+
+<p>Finally you need to initialize the script. preferably at the bottom of the page just before the <code>&lt;/body&gt;</code> tag.</p>
+
+<blockquote>
+<pre><code>&lt;script&gt;
+    $(function(){
+        $('.uhmshare').uhmshare();
+    });
+&lt;/script&gt;
+</code></pre>
+</blockquote>
+
+<h2>Result </h2>
+
+<p>The result will be something more or less, probably exaclty like the following if you are equally popular ):
+<img src="http://sebastiano.me/wp-content/uploads/2013/01/uhmshare.png" alt="Uhm? share!"></p>
+
+<h2>Supported for now</h2>
+
+<ul>
+<li>  facebook.</li>
+<li>  twitter.</li>
+<li>  pinterest.</li>
+<li>  stumbleupon.</li>
+</ul><h2>Todo List</h2>
+
+<ul>
+<li>  Email this button . </li>
+<li>  Add more Socialmedia share options. </li>
+<li>  Lightbox-isch integration instead of the ugly window.popup<br>
+</li>
+</ul><h2>Tested and working in.</h2>
+
+<ul>
+<li>  Firefox 18</li>
+<li>  Safari 5</li>
+<li>  Ie(ek) 8 &amp; 9</li>
+<li>  Opera 12.10</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
