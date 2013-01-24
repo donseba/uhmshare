@@ -1,5 +1,5 @@
-The MIT License
-===============
+MIT License
+===========
 
 Copyright (c) 2013 Sebastiano Bellinzis (http://sebastiano.me)
 
