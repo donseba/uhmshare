@@ -19,7 +19,7 @@ If You really want you can specify the Url and Title, otherwise the page Url and
 
 Above code will come in handy if you have muptiple acrticles on one page, wich also have their own url.
 
-Finally you need to initialize the script. preferably at the bottom of the page just before the closing body tag.
+Finally you need to initialize the script. preferably at the bottom of the page just before the <code>&lt;/body&gt;</code> tag.
 >     <script>
 >         $(function(){
 >             $('.uhmshare').uhmshare();
@@ -43,3 +43,10 @@ Todo List
 +   Email this button . 
 +   Add more Socialmedia share options. 
 +   Lightbox-isch integration instead of the ugly window.popup  
+
+Tested and working in.
+-------------
++   Firefox 18
++   Safari 5
++   Ie(ek) 8 & 9
++   Opera 12.10
