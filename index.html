@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script src="https://raw.github.com/donseba/uhmshare/master/uhmshare.js"></script>
+	<link href="https://raw.github.com/donseba/uhmshare/master/uhmshare.css" rel="stylesheet" />
+    
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -78,6 +82,14 @@
 <p>The result will be something more or less, probably exaclty like the following if you are equally popular ):
 <img src="http://sebastiano.me/wp-content/uploads/2013/01/uhmshare.png" alt="Uhm? share!"></p>
 
+<h2>Live Demo</h2>
+<p>This Page</p>
+<div class="uhmshare"></div>
+
+<p>http://www.google.com</p>
+<div class="uhmshare" data-url="http://www.google.com"></div>
+
+
 <h2>Supported for now</h2>
 
 <ul>
@@ -106,6 +118,10 @@
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+	<script>
+		$(function(){
+			$('.uhmshare').uhmshare();
+		});
+	</script>
   </body>
 </html>
