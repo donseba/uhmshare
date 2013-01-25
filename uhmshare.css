@@ -1,6 +1,6 @@
 .uhmshare .uhmshare-button,
 .uhmshare .count{ line-height: 18px; background:#F2F2F2 url(uhmshare.png) 0 0 no-repeat; border:1px solid #393939;border-radius:3px 3px 3px 3px;box-shadow:0 1px 3px rgba(0,0,0,0.15);color:#393939;cursor:pointer; font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif; font-size:14px; font-weight:700;text-shadow:0 1px 0 rgba(255,255,255,0.8);transition-duration:.3s;padding:4px;}
-.uhmshare .uhmshare-button:hover{ background-color:#F2EFC4; }
+.uhmshare .uhmshare-button:hover{ background-color:#F2EFC4; text-decoration:none; }
 .uhmshare .uhmshare-button{ display:inline-block;min-width:20px;text-align:center;margin:0 0 0 6px !important;}
 .uhmshare .count{ border-bottom-left-radius:0;border-left:none;border-top-left-radius:0;cursor:default;display:inline-block;min-width:10px;text-align:center;margin:0!important;}
 .uhmshare .uhmshare-button.hascount{ border-bottom-right-radius:0; border-top-right-radius:0; border-right:1px solid #393939; }
