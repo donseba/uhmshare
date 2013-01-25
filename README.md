@@ -5,6 +5,10 @@ jQuery social sharing Plugin.
 
 uhmshare (Uhm? share!) is a small plugin for sharing a page or specific content of the page with socialmedia. 
 
+Live Demo
+-------------
+http://donseba.github.com/uhmshare/
+
 Usage
 -------------
 Include both the css and js file in your page. preferable in the header. but do as you please.
